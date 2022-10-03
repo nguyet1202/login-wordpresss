@@ -1,0 +1,13 @@
+/*
+Theme Name: Newsment child
+Theme URI: https://afthemes.com/products/newsment/
+Author: AF themes
+Author URI: https://afthemes.com
+Description:  Newsment is a child theme of CoverNews. The theme has a new advertisement widget area, default header image as well as some significant fonts and color configuration adjustments. In addition, the design also modified some of the default nature of the front page layout. You can implement layouts such as a personal blog, modern news journals, fashion magazines, travel blogging & magazine, vibrant news sites, and more. It is also compatible with Elementor, Gutenberg, and RTL language support along with the WooCommerce plugin that helps you to integrate an online business with your blog easily with the help of the available customizer options and widgets. The theme is SEO friendly with optimized code and awesome support.
+Template: covernews
+Version: 1.0.0
+*/
+
+body{
+    background-color:red;
+}

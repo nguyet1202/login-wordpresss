@@ -1,0 +1,105 @@
+/*
+Theme Name: Anc News
+Theme URI: https://themeansar.com/free-themes/anc-news/
+Author: Themeansar
+Author URI: https://themeansar.com
+Description: Anc News is a fast, clean, modern-looking Best Responsive Blog, News, Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Anc News is suitable for dynamic blog, news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. Anc News is SEO friendly, WPML,Elementor,Gutenberg, translation and RTL ready. Live preview : https://demos.themeansar.com/fameup-demos/ and documentation at https://docs.themeansar.com/docs/fameup/
+Version: 0.0.6
+Requires PHP: 5.4
+Tested up to: 6.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: fameup
+Text Domain: anc-news
+Tags: blog, portfolio, news, grid-Layout, one-column, two-columns, three-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks
+
+Anc News WordPress Theme is child theme of Fameup, Copyright 2022 Themeansar
+Anc News is distributed under the terms of the GNU General Public License v3
+
+Anc News is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+.edit-link .post-edit-link:hover { 
+    text-decoration: underline; 
+}
+
+ a:focus {
+    outline: 1px solid;
+}
+.switch { 
+    display: none !important; 
+}
+.msearch {
+    display: none !important;
+}
+.navbar-toggler>.close {
+    display: none;
+}
+.offcbtn {
+    opacity: 0;
+}
+.navbar-toggler.collapsed>.close {
+    display: none;
+}
+.navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+    display: block;
+}
+
+.site-branding-text .site-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.bs-default .bs-header-main .ancinner {
+    display: flex;
+    padding: 15px 0;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+}
+
+.bs-default .bs-header-main .ancinner
+{
+    padding: 20px 0;
+}
+.media.bs-blog-post img {
+    width: 80px;
+    height: 80px;
+}
+.bs-widget .tagcloud a {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px !important;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 0 5px 9px 0;
+    padding: 6px 12px;
+    transition: all 0.4s ease-in-out 0s;
+    border-radius: 0;
+    text-transform: capitalize;
+    border-width: 1px;
+    border-style: solid;
+}
+.boxed {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0 0 10px 0 rgba(48, 48, 48, 0.5);
+}
+@media screen and (min-width: 240px) and (max-width: 1179px) {
+    .boxed {
+        width: auto;
+    }
+    
+}
+.navbar-nav.mx-auto {
+    margin-left: unset !important;
+}
